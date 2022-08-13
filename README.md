@@ -1,5 +1,4 @@
 # Applicant Management API Project
-# hieuvu-995
 ## Technologies
 
 - Python 3.8.10
@@ -78,3 +77,5 @@ Run `scripts/build.sh` to packing source into `dist/applicant-api.zip`:
 ## API Document
 
 Refer at: https://documenter.getpostman.com/view/17061007/VUjSFP73
+
+```hieuvu-995```
