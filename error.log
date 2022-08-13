@@ -1,0 +1,21 @@
+2022-08-13 01:20:48,881 ERROR apps.registration.views put Update applicant's info fail due to invalid email address :hieuvu111111@gmail.com
+2022-08-13 01:20:51,792 ERROR apps.registration.views put Update applicant's info fail due to invalid email address :hieuvu111111@gmail.com
+2022-08-13 01:21:17,479 ERROR apps.registration.views put Update applicant's info fail due to invalid email address :hieuvu111111@gmail.com
+2022-08-13 01:21:25,806 ERROR apps.registration.views put Update applicant's info fail due to invalid dob :False
+2022-08-13 01:21:52,536 ERROR apps.registration.views put Update applicant's info fail due to invalid dob :False
+2022-08-13 01:22:27,121 ERROR apps.registration.views put Update applicant's info fail due to invalid email address :hieuvu@gmail.com
+2022-08-13 01:49:30,509 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvu111111@gmail.com
+2022-08-13 01:49:32,027 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvu111111@gmail.com
+2022-08-13 01:49:32,575 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvu111111@gmail.com
+2022-08-13 01:49:42,107 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvu111111@gmail.com
+2022-08-13 01:49:45,038 ERROR apps.registration.views post Create applicant's info fail due to invalid dob :False
+2022-08-13 01:50:17,813 ERROR apps.registration.views post Create applicant's info fail due to invalid dob :False
+2022-08-13 01:51:50,871 ERROR apps.registration.views post Create applicant's info fail due to invalid dob :False
+2022-08-13 01:51:58,769 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvua111111@gmail.com
+2022-08-13 01:51:59,286 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvua111111@gmail.com
+2022-08-13 01:51:59,847 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvua111111@gmail.com
+2022-08-13 01:52:00,346 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvua111111@gmail.com
+2022-08-13 01:52:04,922 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvua111111@gmail.com
+2022-08-13 02:15:35,316 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvu9@gmail.com
+2022-08-13 02:15:46,543 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvu9@gmail.com
+2022-08-13 12:45:24,288 ERROR apps.registration.views post Applicant's email is invalid format or existed: hieuvu@gmail.com

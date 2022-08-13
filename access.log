@@ -1,0 +1,499 @@
+2022-08-13 00:56:13,566 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 00:56:58,732 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:00:41,755 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:06:26,312 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\management\urls.py changed, reloading.
+2022-08-13 01:10:29,254 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:10:37,478 WARNING django.request log_response Not Found: /
+2022-08-13 01:10:37,478 WARNING django.server log_message "GET / HTTP/1.1" 404 2180
+2022-08-13 01:10:38,035 WARNING django.request log_response Not Found: /favicon.ico
+2022-08-13 01:10:38,035 WARNING django.server log_message "GET /favicon.ico HTTP/1.1" 404 2231
+2022-08-13 01:11:11,445 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 70
+2022-08-13 01:12:51,225 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:12:52,220 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:14:33,507 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:14:34,501 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:14:45,303 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 01:14:54,008 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:14:54,009 WARNING django.server log_message "GET /admin/applicant/ HTTP/1.1" 400 101
+2022-08-13 01:15:05,490 INFO django.server log_message "GET /admin/applicant/list HTTP/1.1" 301 0
+2022-08-13 01:15:05,497 INFO django.server log_message "GET /admin/applicant/list/ HTTP/1.1" 200 2190
+2022-08-13 01:16:30,275 INFO django.server log_message "PUT /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:17:39,348 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:17:40,301 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:18:48,456 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:18:50,901 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:18:58,608 ERROR django.request log_response Internal Server Error: /admin/applicant/
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py", line 147, in put
+    _resp.data = {"applicant_id": applicant.applicant_id, "status": applicant.status}
+AttributeError: 'int' object has no attribute 'applicant_id'
+2022-08-13 01:18:58,609 ERROR django.server log_message "PUT /admin/applicant/ HTTP/1.1" 500 19399
+2022-08-13 01:19:16,358 ERROR django.request log_response Internal Server Error: /admin/applicant/
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py", line 147, in put
+    _resp.data = {"applicant_id": applicant.applicant_id, "status": applicant.status}
+AttributeError: 'int' object has no attribute 'applicant_id'
+2022-08-13 01:19:16,359 ERROR django.server log_message "PUT /admin/applicant/ HTTP/1.1" 500 19399
+2022-08-13 01:19:26,084 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:20:17,036 ERROR django.request log_response Internal Server Error: /admin/applicant/
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py", line 147, in put
+    _resp.data = {"applicant_id": applicant.applicant_id, "status": applicant.status}
+AttributeError: 'int' object has no attribute 'applicant_id'
+2022-08-13 01:20:17,040 ERROR django.server log_message "PUT /admin/applicant/ HTTP/1.1" 500 31656
+2022-08-13 01:20:38,690 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:20:40,434 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:20:43,672 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:20:45,236 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:20:48,882 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:20:48,882 WARNING django.server log_message "PUT /admin/applicant/ HTTP/1.1" 400 110
+2022-08-13 01:20:51,793 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:20:51,793 WARNING django.server log_message "PUT /admin/applicant/ HTTP/1.1" 400 110
+2022-08-13 01:21:17,480 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:21:17,480 WARNING django.server log_message "PUT /admin/applicant/ HTTP/1.1" 400 110
+2022-08-13 01:21:25,806 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:21:25,807 WARNING django.server log_message "PUT /admin/applicant/ HTTP/1.1" 400 88
+2022-08-13 01:21:46,283 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\schema.py changed, reloading.
+2022-08-13 01:21:47,827 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:21:52,537 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:21:52,537 WARNING django.server log_message "PUT /admin/applicant/ HTTP/1.1" 400 88
+2022-08-13 01:22:24,345 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:22:26,025 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:22:27,121 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:22:27,122 WARNING django.server log_message "PUT /admin/applicant/ HTTP/1.1" 400 104
+2022-08-13 01:22:45,710 ERROR django.request log_response Internal Server Error: /admin/applicant/
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py", line 148, in put
+    _resp.data = {"applicant_id": applicant.applicant_id, "status": applicant.status}
+NameError: name 'applicant' is not defined
+2022-08-13 01:22:45,713 ERROR django.server log_message "PUT /admin/applicant/ HTTP/1.1" 500 31619
+2022-08-13 01:23:04,975 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:23:06,833 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:23:30,715 INFO django.server log_message "PUT /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:23:46,733 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:23:48,377 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:23:56,312 INFO django.server log_message "PUT /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:24:04,310 INFO django.server log_message "PUT /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:24:24,289 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:24:25,842 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:26:09,373 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:26:11,058 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:28:03,140 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:28:04,852 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:30:05,971 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:30:07,598 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:30:53,287 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:30:54,851 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:31:38,778 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:31:40,428 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:34:26,382 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:34:28,007 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:34:31,669 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:34:32,300 INFO django.server log_message "PUT /admin/applicant/ HTTP/1.1" 200 89
+2022-08-13 01:35:29,428 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:35:30,369 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:35:32,033 INFO django.server log_message "PUT /admin/applicant/ HTTP/1.1" 200 158
+2022-08-13 01:35:44,096 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:35:44,096 WARNING django.server log_message "GET /admin/applicant/ HTTP/1.1" 400 90
+2022-08-13 01:36:23,564 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:36:49,003 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:36:53,434 INFO django.server log_message "GET /admin/applicant/list HTTP/1.1" 301 0
+2022-08-13 01:36:53,439 INFO django.server log_message "GET /admin/applicant/list/ HTTP/1.1" 200 2190
+2022-08-13 01:36:56,727 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:37:17,232 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:37:22,836 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:37:55,058 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:37:56,692 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:38:06,723 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:38:43,205 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:38:44,717 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:39:32,179 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:39:33,739 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:39:55,516 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:39:57,427 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:39:57,748 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:40:18,625 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:40:19,546 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:41:19,414 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:41:20,302 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:41:21,538 INFO django.server log_message "GET /admin/applicant/list HTTP/1.1" 301 0
+2022-08-13 01:41:21,572 INFO django.server log_message "GET /admin/applicant/list/ HTTP/1.1" 200 2190
+2022-08-13 01:41:36,762 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:41:37,684 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:41:43,784 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:41:44,796 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:41:46,892 INFO django.server log_message "GET /admin/applicant/list HTTP/1.1" 301 0
+2022-08-13 01:41:46,925 INFO django.server log_message "GET /admin/applicant/list/ HTTP/1.1" 200 2190
+2022-08-13 01:41:51,896 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 200 51
+2022-08-13 01:42:01,397 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:42:34,388 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:42:35,882 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:42:51,000 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:42:52,613 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:42:59,030 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 01:44:26,871 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:44:28,406 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:45:34,843 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:45:36,481 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:45:52,768 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:45:54,296 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:46:01,068 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:46:02,600 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:46:27,212 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:46:28,941 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:46:47,908 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:46:49,435 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:47:33,225 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:47:34,743 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:47:43,873 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:47:45,539 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:47:50,015 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:47:51,550 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:49:12,229 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:49:13,771 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:49:20,632 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:49:27,903 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 01:49:30,510 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:49:30,510 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 101
+2022-08-13 01:49:32,027 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:49:32,028 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 101
+2022-08-13 01:49:32,575 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:49:32,575 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 101
+2022-08-13 01:49:42,108 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:49:42,108 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 101
+2022-08-13 01:49:45,038 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:49:45,038 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 400 95
+2022-08-13 01:50:05,916 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:50:06,835 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:50:12,977 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:50:13,921 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:50:17,813 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:50:17,814 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 400 77
+2022-08-13 01:51:48,304 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:51:49,313 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:51:50,871 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:51:50,871 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 400 70
+2022-08-13 01:51:56,958 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 01:51:58,769 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:51:58,769 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 102
+2022-08-13 01:51:59,286 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:51:59,287 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 102
+2022-08-13 01:51:59,848 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:51:59,848 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 102
+2022-08-13 01:52:00,346 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:52:00,346 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 102
+2022-08-13 01:52:04,922 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 01:52:04,922 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 102
+2022-08-13 01:52:08,077 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 01:52:13,280 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:52:13,280 WARNING django.server log_message "GET /admin/applicant/ HTTP/1.1" 400 101
+2022-08-13 01:52:21,511 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 01:52:41,651 WARNING django.request log_response Bad Request: /admin/applicant/
+2022-08-13 01:52:41,651 WARNING django.server log_message "PUT /admin/applicant/ HTTP/1.1" 400 108
+2022-08-13 01:52:53,117 INFO django.server log_message "PUT /admin/applicant/ HTTP/1.1" 200 167
+2022-08-13 01:53:08,145 ERROR django.request log_response Internal Server Error: /admin/applicant/approve
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/applicant/approve/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-08-13 01:53:08,146 ERROR django.server log_message "POST /admin/applicant/approve HTTP/1.1" 500 72492
+2022-08-13 01:53:13,753 ERROR django.request log_response Internal Server Error: /admin/applicant/approve/
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py", line 179, in post
+    utils.update_applicant_status(email, ApplicantStatus.APPROVE.value)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py", line 110, in update_applicant_status
+    _logger.info(f"Update status: {status} for applicant who has email': {email}")
+NameError: name '_logger' is not defined
+2022-08-13 01:53:13,755 ERROR django.server log_message "POST /admin/applicant/approve/ HTTP/1.1" 500 19614
+2022-08-13 01:53:42,613 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:54:00,311 ERROR django.request log_response Internal Server Error: /admin/applicant/approve/
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py", line 179, in post
+    utils.update_applicant_status(email, ApplicantStatus.APPROVE.value)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py", line 110, in update_applicant_status
+    _logger.info(f"Update status: {status} for applicant who has email': {email}")
+NameError: name '_logger' is not defined
+2022-08-13 01:54:00,315 ERROR django.server log_message "POST /admin/applicant/approve/ HTTP/1.1" 500 31871
+2022-08-13 01:54:58,234 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:54:59,841 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:55:04,217 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:55:05,796 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:55:35,230 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:55:37,446 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:55:38,206 ERROR django.request log_response Internal Server Error: /admin/applicant/approve/
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py", line 182, in post
+    utils.update_applicant_status(email, ApplicantStatus.APPROVE.value)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py", line 110, in update_applicant_status
+    _logger.info(f"Update status: {status} for applicant who has email': {email}")
+NameError: name '_logger' is not defined
+2022-08-13 01:55:38,207 ERROR django.server log_message "POST /admin/applicant/approve/ HTTP/1.1" 500 19614
+2022-08-13 01:56:08,756 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:56:09,648 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:56:13,001 ERROR django.request log_response Internal Server Error: /admin/applicant/approve/
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py", line 182, in post
+    utils.update_applicant_status(email, ApplicantStatus.APPROVE.value)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py", line 110, in update_applicant_status
+    _logger.info(f"Update status: {status} for applicant who has email': {email}")
+NameError: name '_logger' is not defined
+2022-08-13 01:56:13,002 ERROR django.server log_message "POST /admin/applicant/approve/ HTTP/1.1" 500 19614
+2022-08-13 01:56:41,893 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:57:10,429 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\utils.py changed, reloading.
+2022-08-13 01:57:12,006 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:57:16,709 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:57:28,321 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 01:57:31,388 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 01:57:37,325 INFO django.server log_message "POST /admin/applicant/approve/ HTTP/1.1" 200 76
+2022-08-13 02:14:45,985 WARNING django.request log_response Not Found: /admin/create/
+2022-08-13 02:14:45,985 WARNING django.server log_message "POST /admin/create/ HTTP/1.1" 404 2238
+2022-08-13 02:14:50,373 WARNING django.request log_response Not Found: /admin/create/
+2022-08-13 02:14:50,374 WARNING django.server log_message "POST /admin/create/ HTTP/1.1" 404 2238
+2022-08-13 02:14:58,395 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 02:14:58,772 WARNING django.request log_response Not Found: /admin/create/
+2022-08-13 02:14:58,773 WARNING django.server log_message "POST /admin/create/ HTTP/1.1" 404 2238
+2022-08-13 02:15:03,030 WARNING django.request log_response Not Found: /admin/create/
+2022-08-13 02:15:03,031 WARNING django.server log_message "POST /admin/create/ HTTP/1.1" 404 2238
+2022-08-13 02:15:03,803 WARNING django.request log_response Not Found: /admin/create/
+2022-08-13 02:15:03,804 WARNING django.server log_message "POST /admin/create/ HTTP/1.1" 404 2238
+2022-08-13 02:15:04,500 WARNING django.request log_response Not Found: /admin/create/
+2022-08-13 02:15:04,500 WARNING django.server log_message "POST /admin/create/ HTTP/1.1" 404 2238
+2022-08-13 02:15:35,317 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 02:15:35,317 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 96
+2022-08-13 02:15:46,544 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 02:15:46,544 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 96
+2022-08-13 02:25:55,433 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 02:44:38,105 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 02:45:17,484 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 02:45:38,205 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:47:34,046 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\core\consts.py changed, reloading.
+2022-08-13 02:47:35,110 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 02:48:27,979 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\views.py changed, reloading.
+2022-08-13 02:48:28,978 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 02:49:28,396 INFO django.server log_message "GET /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:51:12,562 INFO django.server log_message "PUT /admin/applicant/ HTTP/1.1" 200 159
+2022-08-13 02:51:40,197 INFO django.server log_message "GET /admin/applicant/list HTTP/1.1" 301 0
+2022-08-13 02:51:40,202 INFO django.server log_message "GET /admin/applicant/list/ HTTP/1.1" 200 108
+2022-08-13 02:53:31,545 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\schema.py changed, reloading.
+2022-08-13 02:53:32,595 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 02:53:41,292 INFO django.utils.autoreload trigger_reload C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\ApplicantProject\apps\registration\schema.py changed, reloading.
+2022-08-13 02:53:42,270 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 02:53:59,875 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,881 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,886 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,892 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,897 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,902 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,907 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,912 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,918 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,923 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,928 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,933 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,938 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,943 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,948 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,953 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,958 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,963 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,968 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,973 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,978 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,984 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,990 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:53:59,996 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,001 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,007 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,013 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,020 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,026 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,032 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,037 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,043 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,048 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,054 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,060 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,065 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,071 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,076 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,082 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,087 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,093 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,099 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,104 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 89
+2022-08-13 02:54:00,110 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 90
+2022-08-13 02:54:00,115 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 90
+2022-08-13 02:54:00,121 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 90
+2022-08-13 02:54:00,126 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 90
+2022-08-13 02:54:00,132 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 90
+2022-08-13 02:54:00,137 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 90
+2022-08-13 02:54:00,143 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 90
+2022-08-13 02:54:06,178 INFO django.server log_message "GET /admin/applicant/list HTTP/1.1" 301 0
+2022-08-13 02:54:06,187 INFO django.server log_message "GET /admin/applicant/list/ HTTP/1.1" 200 2165
+2022-08-13 02:54:37,318 ERROR django.request log_response Internal Server Error: /admin/applicant/process
+Traceback (most recent call last):
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Hieu Vu\Downloads\Compressed\Grokking_Algorithms-PDF(copy)\venv\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/admin/applicant/process/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-08-13 02:54:37,319 ERROR django.server log_message "POST /admin/applicant/process HTTP/1.1" 500 72356
+2022-08-13 02:54:43,150 INFO django.server log_message "POST /admin/applicant/process/ HTTP/1.1" 200 76
+2022-08-13 12:45:05,906 INFO django.utils.autoreload run_with_reloader Watching for file changes with StatReloader
+2022-08-13 12:45:24,288 WARNING django.request log_response Conflict: /admin/applicant/
+2022-08-13 12:45:24,288 WARNING django.server log_message "POST /admin/applicant/ HTTP/1.1" 409 95
+2022-08-13 12:45:29,171 INFO django.server log_message "POST /admin/applicant/ HTTP/1.1" 201 90
