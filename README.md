@@ -1,5 +1,5 @@
 # Applicant Management API Project
-
+# hieuvu-995
 ## Technologies
 
 - Python 3.8.10
@@ -56,7 +56,7 @@
 
 ## Coding convention
 
-- You have to format your code using Black before create PR:
+- You have to format your code using Black if want to create PR:
 
     ```bash
     ./scripts/format-code.sh
