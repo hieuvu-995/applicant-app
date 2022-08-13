@@ -16,6 +16,10 @@
    ```
    pip install -r requirements.txt
    ```
+   In case library cached, cannot install requirements, can try this:
+   ```
+   pip install --no-cache-dir r requirements.txt
+   ```
 4. Import environment varible:
 
    With ubuntu os:
@@ -73,4 +77,4 @@ Run `scripts/build.sh` to packing source into `dist/applicant-api.zip`:
  ```
 ## API Document
 
-Refer at: 
+Refer at: https://documenter.getpostman.com/view/17061007/VUjSFP73
